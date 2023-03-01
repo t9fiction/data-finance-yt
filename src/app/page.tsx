@@ -1,12 +1,22 @@
-import Hero from '@/components/Hero'
-import { Inter } from 'next/font/google'
+import Analytics from "@/components/Analytics";
+import Cards from "@/components/Cards";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Newsletter from "@/components/Newsletter";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-    <Hero />
+      <Navbar />
+      <Hero />
+      <Analytics />
+      <Newsletter />
+      <Cards />
+      <Footer />
     </>
-  )
+  );
 }

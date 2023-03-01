@@ -8,7 +8,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="text-white ">
+    <div className="text-white">
       {/* Desktop navbar */}
       <div className="hidden h-12 max-w-[1240px] mx-auto px-4 md:flex justify-between items-center">
         <h1 className="text-3xl font-bold text-[rgb(0,223,154)]">React</h1>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-10 w-[60%] border-r border-r-gray-700 h-full ease-in-out duration-500"
+              ? "fixed left-0 top-10 w-[60%] bg-[#000300] border-r border-r-gray-700 h-full ease-in-out duration-500"
               : "fixed left-[-100%]"
           }
         >
