@@ -16,7 +16,7 @@ const Footer = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, amet!
         </p>
-        <div className="flex justify-between">
+        <div className="flex justify-around md:mr-20">
           <FaFacebookSquare size={25} />
           <FaTwitterSquare size={25} />
           <FaGithubSquare size={25} />
@@ -46,7 +46,7 @@ const Footer = () => {
             <li className="text-sm">API Status</li>
           </ul>
         </div>
-        <div>
+        <div className="mt-10 sm:mt-0">
           <h6 className="font-medium text-gray-400">Company</h6>
           <ul className="space-y-1 mt-3">
             <li className="text-sm">About</li>
@@ -55,7 +55,7 @@ const Footer = () => {
             <li className="text-sm">Press</li>
           </ul>
         </div>
-        <div className="align-middle">
+        <div className="align-middle mt-10 sm:mt-0">
           <h6 className="font-medium text-gray-400">Legal</h6>
           <ul className="space-y-1 mt-3">
             <li className="text-sm">Claim</li>
